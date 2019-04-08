@@ -6,19 +6,15 @@ Scripts to demostate a use case of Encryption as a Service using Vault.
 
 Here the code for the sequence diagram from https://sequencediagram.org:
 ```
-title Vault EaaS
-
-
-
-participantgroup #D7FBFF **Network A**
+participantgroup #D7FBFF **Z's Network**
 actor Tax Agent
 participant client.py
 end 
-participantgroup #DAFFD7 **Network B**
+participantgroup #DAFFD7 **Client's Network**
 actor Finance Guy
 participant extractor.py
 end 
-participantgroup #D7FBFF **Network A**
+participantgroup #D7FBFF **CloudA / CloudB / CloudC**
 actor Tax Agent2
 participant standarize.py
 participant workpaper.py
